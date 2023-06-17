@@ -1,0 +1,19 @@
+digraph ATN {
+rankdir=LR;
+s18[fontsize=11, label="18", shape=doublecircle, fixedsize=true, width=.6];
+s17[fontsize=11,label="17", shape=circle, fixedsize=true, width=.55, peripheries=1];
+s41[fontsize=11,label="41", shape=circle, fixedsize=true, width=.55, peripheries=1];
+s42[fontsize=11,label="&rarr;\n42*", shape=circle, fixedsize=true, width=.55, peripheries=1];
+s43[fontsize=11,label="&larr;\n43", shape=circle, fixedsize=true, width=.55, peripheries=1];
+s44[fontsize=11,label="{44*\nd=3|{<p0>|<p1>}}", shape=record, fixedsize=false, peripheries=1];
+s45[fontsize=11,label="45", shape=circle, fixedsize=true, width=.55, peripheries=1];
+s46[fontsize=11,label="46*", shape=circle, fixedsize=true, width=.55, peripheries=1];
+s17 -> s44 [fontname="Times-Italic", label="&epsilon;"];
+s44:p0 -> s42 [fontname="Times-Italic", label="&epsilon;"];
+s44:p1 -> s45 [fontname="Times-Italic", label="&epsilon;"];
+s42 -> s41 [fontname="Times-Italic", label="&epsilon;"];
+s45 -> s18 [fontname="Times-Italic", label="&epsilon;"];
+s41 -> s43 [fontsize=11, fontname="Courier", arrowsize=.7, label = "{'\"', '*'}", arrowhead = normal];
+s43 -> s46 [fontname="Times-Italic", label="&epsilon;"];
+s46 -> s44 [fontname="Times-Italic", label="&epsilon;", style="dashed"];
+}

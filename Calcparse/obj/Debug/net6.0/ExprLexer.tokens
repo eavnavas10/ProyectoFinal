@@ -1,0 +1,15 @@
+MULT=1
+DIV=2
+SUM=3
+RES=4
+PARI=5
+PARD=6
+NEWLINE=7
+INT=8
+REAL=9
+'*'=1
+'/'=2
+'+'=3
+'-'=4
+'('=5
+')'=6

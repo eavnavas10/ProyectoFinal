@@ -1,0 +1,8 @@
+C:/Users/hp01/Desktop/Calcparser 2 ProyectoFinal/Calcparse/obj/Debug/net6.0/Expr.interp
+C:/Users/hp01/Desktop/Calcparser 2 ProyectoFinal/Calcparse/obj/Debug/net6.0/Expr.tokens
+C:/Users/hp01/Desktop/Calcparser 2 ProyectoFinal/Calcparse/obj/Debug/net6.0/ExprBaseListener.cs
+C:/Users/hp01/Desktop/Calcparser 2 ProyectoFinal/Calcparse/obj/Debug/net6.0/ExprLexer.cs
+C:/Users/hp01/Desktop/Calcparser 2 ProyectoFinal/Calcparse/obj/Debug/net6.0/ExprLexer.interp
+C:/Users/hp01/Desktop/Calcparser 2 ProyectoFinal/Calcparse/obj/Debug/net6.0/ExprLexer.tokens
+C:/Users/hp01/Desktop/Calcparser 2 ProyectoFinal/Calcparse/obj/Debug/net6.0/ExprListener.cs
+C:/Users/hp01/Desktop/Calcparser 2 ProyectoFinal/Calcparse/obj/Debug/net6.0/ExprParser.cs
